@@ -1,0 +1,20 @@
+├──dist
+|   ├──index.d.ts
+|   └──index.js
+├──esm
+|   ├──index.d.ts
+|   └──index.js
+├──lib
+|   ├──index.d.ts
+|   └──index.js
+├──src
+|   └──index.ts
+├──test1
+|   ├──test1_1
+|   └──test1_2
+├──index.js
+├──package-lock.json
+├──package.json
+├──projectTree.txt
+├──test.js
+└──tsconfig.json
