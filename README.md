@@ -24,26 +24,7 @@ node genetator.js
 在项目的根目录下将会生成一个 projectTree.txt。可能会是下面这个样子。
 
 // projectTree.txt
-├──dist
-| ├──index.d.ts
-| └──index.js
-├──esm
-| ├──index.d.ts
-| └──index.js
-├──lib
-| ├──index.d.ts
-| └──index.js
-├──src
-| └──index.ts
-├──test1
-| ├──test1_1
-| └──test1_2
-├──index.js
-├──package-lock.json
-├──package.json
-├──projectTree.txt
-├──test.js
-└──tsconfig.json
+![demo](https://gitee.com/gitme-H/images-bed/raw/master/img/projectTree.png)
 
 ### options
 
