@@ -10,7 +10,7 @@ npm i project-directory-tree -D
 
 ```javascript
 // ./genetator.js
-const projecttree = require("projecttree");
+const projecttree = require("project-directory-tree");
 const p = new projecttree({ maxDepth: 3 });
 p.readDir();
 ```
@@ -49,7 +49,7 @@ node genetator.js
 
 ```javascript
 // ./genetator.js
-const projecttree = require("projecttree");
+const projecttree = require("project-directory-tree");
 const p = new projecttree(options?);
 p.readDir();
 ```
