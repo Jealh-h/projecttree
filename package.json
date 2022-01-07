@@ -1,5 +1,5 @@
 {
-  "name": "projecttree",
+  "name": "project-directory-tree",
   "version": "1.0.0",
   "description": "Generate a directory structure for the project",
   "main": "lib/index.js",

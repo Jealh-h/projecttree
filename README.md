@@ -1,8 +1,10 @@
-这是一个生成项目目录结构的小工具。
+Generate a directory structure for the project
 
 ### usage
 
-npm i projecttree -D
+```bash
+npm i project-directory-tree -D
+```
 
 在项目的根目录下创建一个 generator.js
 
@@ -15,31 +17,33 @@ p.readDir();
 
 then
 
-> node genetator.js
+```bash
+node genetator.js
+```
 
 在项目的根目录下将会生成一个 projectTree.txt。可能会是下面这个样子。
 
-> // projectTree.txt
-> ├──dist
-> | ├──index.d.ts
-> | └──index.js
-> ├──esm
-> | ├──index.d.ts
-> | └──index.js
-> ├──lib
-> | ├──index.d.ts
-> | └──index.js
-> ├──src
-> | └──index.ts
-> ├──test1
-> | ├──test1_1
-> | └──test1_2
-> ├──index.js
-> ├──package-lock.json
-> ├──package.json
-> ├──projectTree.txt
-> ├──test.js
-> └──tsconfig.json
+// projectTree.txt
+├──dist
+| ├──index.d.ts
+| └──index.js
+├──esm
+| ├──index.d.ts
+| └──index.js
+├──lib
+| ├──index.d.ts
+| └──index.js
+├──src
+| └──index.ts
+├──test1
+| ├──test1_1
+| └──test1_2
+├──index.js
+├──package-lock.json
+├──package.json
+├──projectTree.txt
+├──test.js
+└──tsconfig.json
 
 ### options
 
