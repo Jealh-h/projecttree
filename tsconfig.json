@@ -3,15 +3,16 @@
     "target": "es5",
     "lib": ["ES5"],
     "module": "commonjs",
-    "declaration": true,
+    "declaration": false,
     "outDir": "./dist",
     "strict": true,
     "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
     "baseUrl": "./",
     "paths": {
       "*": ["src/*"]
     }
   },
   "exclude": ["node_modules", "build", "dist"],
-  "include": ["src/index.ts"]
+  "include": ["src/index.ts", "types.d.ts"]
 }

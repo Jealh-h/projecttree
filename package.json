@@ -5,10 +5,10 @@
   "main": "lib/index.js",
   "module": "esm/index.js",
   "files": [
-    "./lib/index.d.ts",
-    "./lib/index.js",
-    "esm",
-    "dist"
+    "lib/",
+    "esm/",
+    "bin/",
+    "types.d.ts"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,6 +21,9 @@
     "directory",
     "readme"
   ],
+  "bin":{
+    "pdt":"./bin/pdt.js"
+  },
   "author": "Jealh",
   "license": "ISC",
   "bugs": {

@@ -1,20 +1,14 @@
-├──dist
-|   ├──index.d.ts
-|   └──index.js
+├──bin
 ├──esm
-|   ├──index.d.ts
-|   └──index.js
 ├──lib
-|   ├──index.d.ts
-|   └──index.js
 ├──src
-|   └──index.ts
 ├──test1
-|   ├──test1_1
-|   └──test1_2
+├──.gitignore
 ├──index.js
 ├──package-lock.json
 ├──package.json
 ├──projectTree.txt
+├──README.md
 ├──test.js
-└──tsconfig.json
+├──tsconfig.json
+└──types.d.ts
