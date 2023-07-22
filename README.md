@@ -1,5 +1,7 @@
 # Generate a directory structure for the project
 
+> `tree` command may be more useful
+
 ## usage
 
 ```bash
